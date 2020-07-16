@@ -2,25 +2,47 @@
 #Page1
 ----------------------------------------------------*/
 
-body{
-    background-color: rgb(213,195,169);
+
+/*-----------INTRO----------*/
+
+.intro-bg {
+    position: absolute;
+    background-position: center;
+    border-top: 0px;
+    width: 1500px;
+    height:750px ;
+   
+    
 }
 
 h1{
     font-style: normal;
-    font-weight: 800;
-    font-size: 75px;
+    font-weight: 1200;
+    font-size: 90px;
     text-align: center;
     color: rgb(69,56,53);
 }
 
+
 p{
     font-style: italic;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
+    vertical-align: 0px;
     color: rgb(69,56,53)
+    
 
 
 }
+
+.intro-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: fill;
+    align: center;
+    margin: auto;
+}
+
 
